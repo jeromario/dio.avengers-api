@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import java.net.URI
 import javax.validation.Valid
+
 private const val API_PATH = "/v1/api/avenger"
 @RestController
 @RequestMapping(value = [API_PATH])
